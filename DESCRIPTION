@@ -1,0 +1,13 @@
+Package: chinaWeather
+Type: Package
+Title: A visualized package for China Weather
+Version: 0.1
+Author: Patrick Yang
+Maintainer: Patrick Yang <patrick.yang@50mkw.com>
+Description: A visualized package for China Weather
+Depends: R (>= 3.4.0)
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Date: 2017-06-02
+RoxygenNote: 6.0.1
