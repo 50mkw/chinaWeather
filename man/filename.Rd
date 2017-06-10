@@ -16,7 +16,9 @@ character a file name
 Define a filename from current date.
 }
 \examples{
-filename()
-filename(as.Date("20110701",format="\%Y\%m\%d"))
+\dontrun{
+ filename()
+ filename(as.Date("20110701",format="\%Y\%m\%d"))
+}
 }
 \keyword{filename}
