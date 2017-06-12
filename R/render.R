@@ -109,7 +109,7 @@ drawTemperature<-function(data,lang='zh',type='high',date=Sys.time(),output=FALS
   }
 
   if(output)png(filename=paste(path,ofile,sep=''),width=600,height=600)
-  par(family='STKaiti') #解决中文显示为方框的问题
+  #par(family='STKaiti') #解决中文显示为方框的问题
   layout(matrix(data=c(1,2),nrow=1,ncol=2),widths=c(8,1),heights=c(1,2))
   par(mar=c(0,0,3,10),oma=c(0.2,0.2,0.2,0.2),mex=0.3)
   plot(chinaMap,border="white",col=colors[getColors(temp,breaks)])

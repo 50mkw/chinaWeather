@@ -1,7 +1,7 @@
 Package: chinaWeather
 Type: Package
 Title: a visualized package for china Weather
-Version: 0.1
+Version: 0.1.1
 Authors@R: c(person("Patrick Yang", "Developer", role = c("aut", "cre"),
                      email = "patrick.yang@50mkw.com"))
 Description: a visualized package for china Weather
@@ -15,5 +15,5 @@ Imports:
     stringi
 LazyData: TRUE
 License: GPL-2
-Date: 2016-06-08
+Date: 2016-06-12
 RoxygenNote: 6.0.1
